@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(25, 0, 41, 0.5)), url(CodeBackground.jpg);
+    background-size: cover;
+    height:3000px;
+    box-sizing: border-box;
+}
+
+.navigation{ 
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.navigation .item{
+    display :flex;
+}
+
+.navigation .item li{
+    list-style: none;
+    padding: 0px 1px;
+}
+
+.navigation .item li a{
+    text-decoration: none;
+    color: rgb(246, 244, 244);
+    padding: 20px;
+    background-color: rgb(210, 84, 38);
+    border: 1px solid transparent;
+}
+
+.navigation .item li a:hover{
+    background: #eb9858;
+    color:rgb(2, 11, 4);
+}
+
+.navigation .item li a.checked {
+    background: #eb9858;
+    ;
+    color:rgb(2, 11, 4);
+}
+
+
+h1{
+    color:rgb(246, 244, 244);
+    font-size: 5em;
+    margin: 3em 1em;
+    background-color: rgb(210, 84, 38);
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 3em;
+}
+
+p{font-size: 12;
+
+}
+
+img{
+
+    padding-right: 3em;
+    padding-bottom: 3em;
+    padding-left: 16em;
+    margin: 10px 30px;
+}
+
+#about{
+    color: rgb(246, 244, 244);
+}
+
+p{
+    color:rgb(246, 244, 244);
+    margin-right: 16em;
+    line-height: 1.6em;
+}
+
+.AboutMe{
+    margin-right: 3em;
+    margin-bottom: 2em;
+    margin-left: 3em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+.MyWork{
+    color: rgb(246, 244, 244);
+    padding-top: 3em;
+    margin-left: 4em;
+}
+
+.LinkGit {
+    padding-top: 3em;
+    margin-left: 4em;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    padding: 1em;
+  }
+
+.ContactMe{
+    color: rgb(246, 244, 244);
+    margin-left: 4em;
+    margin-top: 4em;
+}
+
+#form{
+    margin-left: 60px;
+    color: rgb(246, 244, 244);
+}
+
+#foot{
+    text-align: center;
+    color: rgb(246, 244, 244);
+}
